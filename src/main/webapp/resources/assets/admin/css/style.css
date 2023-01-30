@@ -1,0 +1,49 @@
+:root {
+	--sidebar-color: #B2DFDB;
+}
+
+.error {
+	color: red;
+}
+
+/* .sidebar {
+	height: 100vh;
+	background: var(--sidebar-color);
+} */
+
+.cate-form {
+	width: 350px;
+}
+
+.short-description {
+	white-space: nowrap;
+	width: 80px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.prod-input-field > div {
+	padding-bottom: 10px;
+}
+
+.order-address {
+	white-space: nowrap;
+	width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* .sidebar {
+	background-color: #1d1919;
+} */
+
+.accordion-body a {
+	transition: all .5s;
+	color: #000;
+}
+
+.accordion-body a:hover {
+	margin-left: 15px;
+}
+
+
